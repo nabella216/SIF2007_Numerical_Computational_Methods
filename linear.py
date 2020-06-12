@@ -3,10 +3,10 @@
 import numpy as np
 
 #Input your matrix A using numpy arrays
-#A = np.array([[4.0,2.0,0.0],[2.0,3.0,1.0],[0.0,1.0,2.5]])
-A = np.array([[4.0,1.0],[0.0,5.0]])
+A = np.array([[4.0,2.0,0.0],[2.0,3.0,1.0],[0.0,1.0,2.5]])
+
 # Define matrix B using numpy arrays
-b = np.array([2.0,10.0])
+b = np.array([5,0,12.0,12.0])
 
 def gauss(A,b):
     n =  len(b) #define lenght/size of matrix
